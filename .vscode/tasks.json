@@ -1,0 +1,29 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: build project",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-std=c++20",
+                "-g",
+                "-Wall", "-Wextra",
+                "-I.",
+                "Source/*.cpp",
+                "-o",
+                "${workspaceFolder}\\build\\Debug\\SimEcoSolar.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Builds all .cpp files in Source/."
+        }
+    ],
+    "version": "2.0.0"
+}
