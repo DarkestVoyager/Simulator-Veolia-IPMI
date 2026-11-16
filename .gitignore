@@ -1,0 +1,25 @@
+# Rezultate de compilare (pastrezi doar folderul, nu continutul)
+build/Debug/*
+!build/Debug/.gitkeep
+*.exe
+*.o
+*.obj
+*.out
+
+# Fisiere de debug
+*.pdb
+*.ilk
+
+# Log-uri
+*.log
+
+# Setari locale VS Code (contin calea ta catre MSYS2)
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/*.code-workspace
+.vscode/ipch/
+
+# Fisiere de sistem
+Thumbs.db
+Desktop.ini
+.DS_Store
