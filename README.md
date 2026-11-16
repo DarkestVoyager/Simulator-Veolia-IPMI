@@ -11,7 +11,7 @@ Programul este inspirat de **fabrica Veolia din Rousset** (regiunea Bouches-du-R
 Dacă vrei doar să rulezi programul, nu trebuie să compilezi nimic:
 
 1. Deschide secțiunea **Releases** a acestui repository.
-2. Descarcă fișierul **`SimEcoSolar.exe`** din ultima versiune.
+2. Descarcă fișierul **`SimVeolia.exe`** din ultima versiune.
 3. Rulează-l dintr-un terminal (PowerShell sau terminalul din VS Code), ca să se vadă culorile și să rămână afișat rezultatul.
 
 Executabilul este compilat pe Windows, cu bibliotecile incluse (`-static`), deci nu necesită MSYS2/MinGW instalat. Codul sursă rămâne în folderele `Source/` și `Headers/`.
