@@ -12,7 +12,7 @@
                 "-IHeaders",
                 "Source/*.cpp",
                 "-o",
-                "${workspaceFolder}\\Source\\build\\Debug\\SimEcoSolar.exe"
+                "${workspaceFolder}\\Source\\build\\Debug\\SimVeolia.exe"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -22,7 +22,30 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "Builds all .cpp files in Source/."
+            "detail": "Build de debug (cu simboluri pentru gdb)."
+        },
+        {
+            "type": "shell",
+            "label": "C/C++: build release (static)",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-std=c++17",
+                "-O2",
+                "-DNDEBUG",
+                "-Wall", "-Wextra",
+                "-IHeaders",
+                "Source/*.cpp",
+                "-static",
+                "-o",
+                "${workspaceFolder}\\Source\\build\\Release\\SimVeolia.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": "build",
+            "detail": "Build de release: optimizat, fara debug, cu biblioteci statice."
         }
     ],
     "version": "2.0.0"
