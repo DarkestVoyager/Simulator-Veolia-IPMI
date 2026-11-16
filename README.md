@@ -1,4 +1,4 @@
-# SimEcoSolar ☀️♻️
+# SimVeolia IPMI ☀️♻️
 
 Simulator în consolă (C++) pentru reciclarea panourilor fotovoltaice scoase din uz, realizat ca parte aplicată a proiectului **„Managementul Ecologic al Deșeurilor provenite din Panourile Fotovoltaice"**.
 
