@@ -113,14 +113,14 @@ Simulator/
 
 1. Deschide folderul proiectului.
 2. Apasă **Ctrl+Shift+B** pentru build.
-3. Rulează `Source\build\Debug\SimEcoSolar.exe` în terminal, sau apasă **F5** pentru debug.
+3. Rulează `Source\build\Debug\SimVeolia.exe` în terminal, sau apasă **F5** pentru debug.
 
 ### Din linia de comandă
 
 Asigură-te că folderul `Source/build/Debug` există, apoi:
 
 ```
-g++ -std=c++17 -Wall -Wextra -g -IHeaders Source/*.cpp -o Source/build/Debug/SimEcoSolar.exe
+g++ -std=c++17 -Wall -Wextra -g -IHeaders Source/*.cpp -o Source/build/Debug/SimVeolia.exe
 ```
 
 ### Build pentru Release
@@ -128,10 +128,10 @@ g++ -std=c++17 -Wall -Wextra -g -IHeaders Source/*.cpp -o Source/build/Debug/Sim
 Versiunea de release se compilează optimizat, fără informații de debug și cu bibliotecile incluse în executabil:
 
 ```
-g++ -std=c++17 -O2 -DNDEBUG -IHeaders Source/*.cpp -static -o Source/build/Release/SimEcoSolar.exe
+g++ -std=c++17 -O2 -DNDEBUG -IHeaders Source/*.cpp -static -o Source/build/Release/SimVeolia.exe
 ```
 
-Fișierul `Source/build/Release/SimEcoSolar.exe` este cel încărcat în secțiunea Releases.
+Fișierul `Source/build/Release/SimVeolia.exe` este cel încărcat în secțiunea Releases.
 
 ---
 
