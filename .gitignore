@@ -1,6 +1,8 @@
-# Rezultate de compilare (pastrezi doar folderul, nu continutul)
-build/Debug/*
-!build/Debug/.gitkeep
+# Rezultate de compilare (pastrezi doar folderele, nu continutul)
+Source/build/Debug/*
+!Source/build/Debug/.gitkeep
+Source/build/Release/*
+!Source/build/Release/.gitkeep
 *.exe
 *.o
 *.obj
