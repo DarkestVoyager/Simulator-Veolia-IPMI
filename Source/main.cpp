@@ -16,7 +16,7 @@ void pauza() {
 }
 
 int main() {
-    // cat la suta se valorifica si cat la suta se elimina
+    
     while(true) {   
         afiseazaBanner();
         afiseazaPanou();
