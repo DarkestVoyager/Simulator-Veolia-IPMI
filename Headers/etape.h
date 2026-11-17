@@ -1,7 +1,7 @@
 #ifndef ETAPE_H
 #define ETAPE_H
 
-#include "Headers/lot.h"
+#include "lot.h"
 
 void decadrare(Lot& lot);
 void separare(Lot& lot, const std::map<std::string, double>& procente);

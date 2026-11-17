@@ -1,4 +1,4 @@
-#include "Headers/arta.h"
+#include "../Headers/arta.h"
 
 #include <algorithm>
 #include <iostream>

@@ -3,11 +3,11 @@
 #include <limits>
 #include <thread>
 
-#include "Headers/arta.h"
-#include "Headers/date.h"
-#include "Headers/etape.h"
-#include "Headers/lot.h"
-#include "Headers/utilitare.h"
+#include "../Headers/arta.h"
+#include "../Headers/date.h"
+#include "../Headers/etape.h"
+#include "../Headers/lot.h"
+#include "../Headers/utilitare.h"
 
 namespace {
 void pauza() {

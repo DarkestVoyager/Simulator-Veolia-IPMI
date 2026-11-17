@@ -1,5 +1,5 @@
-#include "Headers/utilitare.h"
-#include "Headers/arta.h"
+#include "../Headers/utilitare.h"
+#include "../Headers/arta.h"
 #include <cmath>
 #include <iomanip>
 #include <iostream>

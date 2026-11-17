@@ -1,7 +1,7 @@
 #ifndef UTILITARE_H
 #define UTILITARE_H
 
-#include "Headers/lot.h"
+#include "lot.h"
 
 double sumaMasa(const Lot& lot);
 bool masaCorecta(const Lot& lot);

@@ -1,5 +1,5 @@
-#include "Headers/date.h"
-#include "Headers/lot.h"
+#include "../Headers/date.h"
+#include "../Headers/lot.h"
 
 Lot creeazaLot(std::int32_t nrPanouri) {
 	Lot lot;

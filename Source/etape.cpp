@@ -1,5 +1,5 @@
-#include "Headers/etape.h"
-#include "Headers/date.h"
+#include "../Headers/etape.h"
+#include "../Headers/date.h"
 
 void decadrare(Lot& lot) {
     const double alu = lot.masaInitiala * PROCENT_ALUMINIU / 100.0;
